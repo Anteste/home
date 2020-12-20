@@ -12,7 +12,7 @@ var gree3 = 'Good afternoon ';
 var gree4 = 'Good evening ';
 
 
-document.getElementById('greetings').style = "#98C379"
+document.getElementById('greetings').style.color = "#98C379"
 
 
 // Define the hours of the greetings
