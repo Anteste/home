@@ -36,7 +36,7 @@ function getWeather(latitude, longitude) {
         })
         .then(function (data) {
 
-            weather.temperature = data.main.temp;
+            weather.temperature = Math.round(data.main.temp);
             weather.description = data.weather[0].description;
             weather.iconId = data.weather[0].icon;
         })
