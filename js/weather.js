@@ -9,7 +9,7 @@ const weather = {};
 var tempUnit = 'C';
 
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
-const key = 'aa5b0a76dfbf87541928fb3cc32d3d69';
+const key = 'f455aece75316b4f79477bd89ffaf55d';
 
 // Set Position function
 setPosition();
