@@ -3,7 +3,7 @@ const tempElement = document.querySelector('.temperature-value p');
 const descElement = document.querySelector('.temperature-description p');
 
 // App data
-const weather = {};
+let weather = {};
 
 // Change to 'F' for Fahrenheit
 var tempUnit = 'C';
