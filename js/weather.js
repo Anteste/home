@@ -27,7 +27,7 @@ function setPosition(position) {
 function getWeather(latitude, longitude) {
     let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=metric`;
 
-    console.log(api);
+    //console.log(api); debug api
 
     fetch(api)
         .then(function (response) {

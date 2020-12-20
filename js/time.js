@@ -36,9 +36,9 @@ function displayClock() {
     document.getElementById('minutes').innerText = min + ampm;
 
     document.getElementById('month').innerText = mm;
-    document.getElementById('month').style.color = "#98C379"
 
     document.getElementById('day').innerText = dd;
+    document.getElementById('day').style.color = "#98C379"
 
     setTimeout(displayClock, 1000);
 }
