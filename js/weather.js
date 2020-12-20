@@ -36,7 +36,7 @@ function getWeather(latitude, longitude) {
         })
         .then(function (data) {
 
-            weather.temperature.value = data.main.temp;
+            weather.temperature = data.main.temp;
             weather.description = data.weather[0].description;
             weather.iconId = data.weather[0].icon;
         })
@@ -48,6 +48,6 @@ function getWeather(latitude, longitude) {
 // Display Weather info
 function displayWeather() {
     iconElement.innerHTML = `<img src="icons/OneDark/${weather.iconId}.png"/>`;
-    tempElement.innerHTML = `${weather.temperature.value}°<span class="darkfg">${tempUnit}</span>`;
+    tempElement.innerHTML = `${weather.temperature}°<span class="darkfg">${tempUnit}</span>`;
     descElement.innerHTML = weather.description;
 }
