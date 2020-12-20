@@ -3,7 +3,7 @@ var today = new Date();
 var hour = today.getHours();
 
 // Here you can change your name
-var name = 'Jeremy :)';
+var name = '<span style="color:#98C379">Jeremy :)</span>';
 
 // Here you can change your greetings
 var gree1 = 'Go to Sleep! ';
