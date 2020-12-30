@@ -17,8 +17,8 @@ setPosition();
 function setPosition(position) {
 
     //https://www.latlong.net/
-    let latitude = 46.233124;
-    let longitude = 7.360626;
+    let latitude = 33.573109;
+    let longitude = -7.589843;
 
     getWeather(latitude, longitude);
 }
